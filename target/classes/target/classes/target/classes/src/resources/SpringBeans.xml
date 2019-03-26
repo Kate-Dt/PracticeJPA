@@ -10,7 +10,7 @@
         http://www.springframework.org/schema/tx
         http://www.springframework.org/schema/tx/spring-tx.xsd">
 
-    <context:component-scan base-package="java"/>
+    <context:component-scan base-package="src"/>
     <tx:annotation-driven/>
 
     <bean id="dataSource" class="org.apache.commons.dbcp2.BasicDataSource">
@@ -43,4 +43,5 @@
     </bean>
     <bean id="lectureWorker" class="src.main.LecturesWorker"/>
     <bean id="lecturesDao" class="src.main.LectureDaoImpl"/>
+    <bean id="facultyWorker" class="src.main.FacultyWorker"/>
 </beans>
