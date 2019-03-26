@@ -2,62 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9c7596eb-5f28-4a95-9b3e-b58f2240bf47" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/FacultyDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/FacultyDaoImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/FacultyWorker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/entities/Faculty.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__antlr_antlr_2_7_7.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_classmate_1_3_4.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_istack_istack_commons_runtime_3_0_7.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_xml_fastinfoset_FastInfoset_1_2_15.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_activation_javax_activation_api_1_2_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_persistence_javax_persistence_api_2_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_xml_bind_jaxb_api_2_3_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_9_10.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_dom4j_dom4j_2_1_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jaxb_jaxb_runtime_2_3_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jaxb_txw2_2_3_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_common_hibernate_commons_annotations_5_1_0_Final.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_hibernate_core_5_4_2_Final.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_javassist_javassist_3_24_0_GA.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_jandex_2_0_5_Final.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_3_2_Final.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_spec_javax_transaction_jboss_transaction_api_1_2_spec_1_1_1_Final.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jvnet_staxex_stax_ex_1_8.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PracticeJPA.iml" beforeDir="false" afterPath="$PROJECT_DIR$/PracticeJPA.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/entities/Lecture.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/entities/Lecture.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/resources/SpringBeans.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/SpringBeans.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/PracticeJPA.iml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/PracticeJPA.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/SpringBeans.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/SpringBeans.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/src/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/src/App.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/src/main/Lecture.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/src/main/LectureDaoImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/src/main/LectureDaoImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/src/main/LecturesDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/src/main/LecturesDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/src/main/LecturesWorker.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/src/main/LecturesWorker.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/src/resources/SpringBeans.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/src/resources/SpringBeans.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/target/classes/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/PracticeJPA.iml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/target/classes/PracticeJPA.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/SpringBeans.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/target/classes/SpringBeans.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/target/classes/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/src/resources/SpringBeans.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/target/classes/src/resources/SpringBeans.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/target/classes/target/classes/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/PracticeJPA.iml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/target/classes/target/classes/PracticeJPA.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/SpringBeans.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/target/classes/target/classes/SpringBeans.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/target/classes/target/classes/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/src/resources/SpringBeans.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/target/classes/target/classes/src/resources/SpringBeans.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/target/classes/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/target/classes/target/classes/target/classes/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/target/classes/PracticeJPA.iml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/target/classes/target/classes/target/classes/PracticeJPA.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/target/classes/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/target/classes/target/classes/target/classes/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/target/classes/target/classes/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/target/classes/target/classes/target/classes/target/classes/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/target/classes/target/classes/PracticeJPA.iml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/target/classes/target/classes/target/classes/target/classes/PracticeJPA.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/target/classes/target/classes/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/target/classes/target/classes/target/classes/target/classes/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -96,11 +41,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/entities/Lecture.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="115">
-              <caret line="17" column="51" lean-forward="true" selection-start-line="17" selection-start-column="51" selection-end-line="17" selection-end-column="51" />
+            <state relative-caret-position="69">
+              <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
               <folding>
                 <element signature="e#697#698#0" expanded="true" />
                 <element signature="e#727#728#0" expanded="true" />
@@ -135,7 +80,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/FacultyDaoImpl.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="414">
@@ -232,8 +177,8 @@
         <option value="$PROJECT_DIR$/src/App.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/resources/SpringBeans.xml" />
-        <option value="$PROJECT_DIR$/src/main/entities/Lecture.java" />
         <option value="$PROJECT_DIR$/src/main/entities/Faculty.java" />
+        <option value="$PROJECT_DIR$/src/main/entities/Lecture.java" />
       </list>
     </option>
   </component>
@@ -248,7 +193,7 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="281" />
     <option name="y" value="-9" />
     <option name="width" value="1422" />
@@ -302,7 +247,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553610235887" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553611671749" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../PracticeJDBC" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -383,12 +328,12 @@
       <workItem from="1552379311228" duration="3585000" />
       <workItem from="1552396780391" duration="12000" />
       <workItem from="1553444621711" duration="11380000" />
-      <workItem from="1553524204980" duration="12253000" />
+      <workItem from="1553524204980" duration="12532000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27230000" />
+    <option name="totallyTimeSpent" value="27509000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1488" height="878" extended-state="6" />
@@ -484,19 +429,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/entities/Lecture.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="17" column="51" lean-forward="true" selection-start-line="17" selection-start-column="51" selection-end-line="17" selection-end-column="51" />
-          <folding>
-            <element signature="e#697#698#0" expanded="true" />
-            <element signature="e#727#728#0" expanded="true" />
-            <element signature="e#774#775#0" expanded="true" />
-            <element signature="e#812#813#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/entities/Faculty.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="460">
@@ -556,6 +488,19 @@
           <caret line="18" column="23" lean-forward="true" selection-start-line="18" selection-start-column="23" selection-end-line="18" selection-end-column="23" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/entities/Lecture.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+          <folding>
+            <element signature="e#697#698#0" expanded="true" />
+            <element signature="e#727#728#0" expanded="true" />
+            <element signature="e#774#775#0" expanded="true" />
+            <element signature="e#812#813#0" expanded="true" />
           </folding>
         </state>
       </provider>

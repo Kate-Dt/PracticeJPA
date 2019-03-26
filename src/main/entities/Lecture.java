@@ -2,14 +2,6 @@ package src.main.entities;
 
 import javax.persistence.*;
 
-//@NamedNativeQueries(
-//        {
-//                @NamedNativeQuery(
-//                        name="get-emp-by-name-native",
-//                        query="SELECT * FROM Employees WHERE firstName=:fName",
-//                        resultClass=EmployeeEntity.class)
-//        }
-//)
 @Entity
 @Table(name="lectures")
 public class Lecture {
