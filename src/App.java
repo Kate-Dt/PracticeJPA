@@ -29,12 +29,6 @@ public class App {
         lecture4.setName("Philosophy of science");
         lecture4.setCredits(2.5);
 
-        LecturesWorker lworker =
-                (LecturesWorker)context.getBean("lectureWorker");
-        System.out.println(lecture1.getCredits());
-        lworker.addLecture(lecture1);
-        lworker.addLecture(lecture2);
-
         Faculty faculty1 = new Faculty("Informatics", lecture1, lecture3);
         Faculty faculty2 = new Faculty("Philosophy", lecture2, lecture4);
 
@@ -43,5 +37,14 @@ public class App {
         System.out.println(lecture1.getCredits());
         fworker.addFaculty(faculty1);
         fworker.addFaculty(faculty2);
+
+        LecturesWorker lworker =
+                (LecturesWorker)context.getBean("lectureWorker");
+        System.out.println(lecture1.getCredits());
+        lworker.addLecture(lecture1);
+        lworker.addLecture(lecture2);
+        lworker.addLecture(lecture3);
+        lworker.addLecture(lecture4);
+
     }
 }

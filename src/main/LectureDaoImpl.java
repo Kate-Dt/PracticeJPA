@@ -3,9 +3,11 @@ package src.main;
 import org.springframework.stereotype.Repository;
 import src.main.entities.Lecture;
 
+import javax.persistence.Cacheable;
 import javax.persistence.EntityManager;
 import javax.persistence.PersistenceContext;
 import javax.transaction.Transactional;
+import java.util.List;
 
 @Repository
 @Transactional
@@ -25,5 +27,13 @@ public class LectureDaoImpl implements LecturesDao{
 
     public void saveLecture(Lecture lecture) {
         em.merge(lecture);
+    }
+
+    @Cacheable("lecturesCache")
+    public List<Lecture> getFacultyLectures(String facultyName){
+        return em.createNamedQuery(
+                "selectFacultyLectures", Lecture.class)
+                .setParameter("name", facultyName)
+                .getResultList();
     }
 }

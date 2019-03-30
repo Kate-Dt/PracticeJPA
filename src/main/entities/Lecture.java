@@ -2,8 +2,16 @@ package src.main.entities;
 
 import javax.persistence.*;
 
+@NamedQueries({
+        @NamedQuery(name = "selectFacultyLectures",
+                 query= "SELECT DISTINCT lectures.name " +
+                        "FROM lectures INNER JOIN faculty " +
+                        "ON lectures.id_faculty=faculty.id_faculty " +
+                        "WHERE faculty.name  = :name")
+})
 @Entity
 @Table(name="lectures")
+@Cacheable(true)
 public class Lecture {
 
     @Id

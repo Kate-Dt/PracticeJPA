@@ -7,6 +7,7 @@ import java.util.stream.Stream;
 
 @Entity
 @Table(name="faculty")
+@Cacheable(true)
 public class Faculty {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
