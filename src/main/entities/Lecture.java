@@ -1,17 +1,18 @@
 package src.main.entities;
 
 import javax.persistence.*;
+import java.util.Objects;
 
 @NamedQueries({
         @NamedQuery(name = "selectFacultyLectures",
-                 query= "SELECT DISTINCT lectures.name " +
-                        "FROM lectures INNER JOIN faculty " +
-                        "ON lectures.id_faculty=faculty.id_faculty " +
-                        "WHERE faculty.name  = :name")
+                 query= "SELECT DISTINCT l " +
+                        "FROM Lecture l INNER JOIN Faculty f " +
+                        "ON l.faculty.id=f.id " +
+                        "WHERE f.name  = :name")
 })
 @Entity
 @Table(name="lectures")
-@Cacheable(true)
+@Cacheable
 public class Lecture {
 
     @Id
@@ -57,5 +58,20 @@ public class Lecture {
                 ", name='" + name + '\'' +
                 ", credits=" + credits +
                 '}';
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        Lecture lecture = (Lecture) o;
+        return  Double.compare(lecture.credits, credits) == 0 &&
+                Objects.equals(name, lecture.name) &&
+                Objects.equals(faculty.getName(), lecture.faculty.getName());
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(name, credits, faculty.getName());
     }
 }

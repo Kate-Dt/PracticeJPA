@@ -3,7 +3,7 @@ package src.main;
 import org.springframework.stereotype.Repository;
 import src.main.entities.Lecture;
 
-import javax.persistence.Cacheable;
+import org.springframework.cache.annotation.Cacheable;
 import javax.persistence.EntityManager;
 import javax.persistence.PersistenceContext;
 import javax.transaction.Transactional;

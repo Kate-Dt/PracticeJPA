@@ -11,7 +11,7 @@
         http://www.springframework.org/schema/tx
         http://www.springframework.org/schema/tx/spring-tx.xsd">
 
-    <context:component-scan base-package="src"/>
+    <context:component-scan base-package="src.main"/>
     <tx:annotation-driven/>
 
     <bean id="dataSource" class="org.apache.commons.dbcp2.BasicDataSource">
@@ -35,6 +35,9 @@
         <property name="generateDdl" value="false"/>
         <property name="databasePlatform" value="org.hibernate.dialect.MySQLDialect" />
     </bean>
+    <bean id="jdbcTemplate" class="org.springframework.jdbc.core.JdbcTemplate">
+        <constructor-arg ref="dataSource"/>
+    </bean>
 
     <bean class="org.springframework.dao.annotation.PersistenceExceptionTranslationPostProcessor"/>
     <bean class="org.springframework.orm.jpa.support.PersistenceAnnotationBeanPostProcessor"/>
@@ -45,6 +48,7 @@
     <bean id="lectureWorker" class="src.main.LecturesWorker"/>
     <bean id="lecturesDao" class="src.main.LectureDaoImpl"/>
     <bean id="facultyWorker" class="src.main.FacultyWorker"/>
+
     <bean id="ehcache" class="org.springframework.cache.ehcache.EhCacheManagerFactoryBean"
           p:configLocation="classpath:ehcache.xml"
           p:shared="true"/>

@@ -1,13 +1,14 @@
 package src.main.entities;
 
 import javax.persistence.*;
+import java.util.Objects;
 import java.util.Set;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
 @Entity
 @Table(name="faculty")
-@Cacheable(true)
+@Cacheable
 public class Faculty {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
@@ -50,5 +51,18 @@ public class Faculty {
 
     public void setLectures(Set<Lecture> lectures) {
         this.lectures = lectures;
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        Faculty faculty = (Faculty) o;
+        return Objects.equals(name, faculty.name);
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(name);
     }
 }

@@ -2,8 +2,9 @@ package src.main;
 
 import src.main.entities.Lecture;
 
+import javax.transaction.Transactional;
 import java.util.List;
-
+@Transactional
 public interface LecturesDao {
 
     Lecture addLecture(Lecture lecture);
